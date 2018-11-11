@@ -6,12 +6,24 @@ using namespace std;
 
 int main()
 {
-	int a;
-	int b;
-	cin >> a;
-	cin >> b;
-	cout << MyPow(a, b) << endl;
+	double a;
+	double b;
+	int k;
+	cout << 'a';cin >> a;
+	cout << 'b'; cin >> b;
+	cout << "komanda: ";
+	cin >> k;
+
+	switch (k)
+
+	{
+	case '1':cout << MyMylt(a, b); break;
+	//case '2':cout <<     ; break;
+	//case '3':cout <<     ; break;
+	//case '4':cout <<     ; break;
+
+	default:
+		break;
 
 	system("pause");
 	return 0;
-}
