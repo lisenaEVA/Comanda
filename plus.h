@@ -1,6 +1,6 @@
 #pragma once
-#ifndef __PLUS_H__
-#define __PLUS_H__
-double plus(double, double);
+#ifndef _PLUS_H_
+#define _PLUS_H_
+double Plus(double, double);
 
 #endif

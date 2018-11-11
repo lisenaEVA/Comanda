@@ -1,7 +1,7 @@
 #include "plus.h"
 
 
-double plus(double a, double b) {
+double Plus(double a, double b) {
 	
 	return (a + b);
 }
