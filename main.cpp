@@ -1,5 +1,5 @@
 #include <iostream> 
-#include "pow.h"
+#include "mult.h"
 #include <cmath>
 
 using namespace std;
@@ -10,7 +10,7 @@ int main()
 	int b;
 	cin >> a;
 	cin >> b;
-	cout << MyPow(a, b) << endl;
+	cout << MyMylt(a, b) << endl;
 
 	system("pause");
 	return 0;
