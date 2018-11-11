@@ -3,7 +3,7 @@
 #include <cmath>
 
 
-double MyPow(double a, double b)
+double MyPow(double a, double b) // :)
 {
 	return (b * a);
 }
